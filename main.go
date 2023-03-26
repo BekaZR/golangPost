@@ -25,5 +25,5 @@ func getUsers(c *gin.Context) {
 func main() {
 	router := gin.Default()
 	router.GET("/users", getUsers)
-	router.Run("localhost:8000")
+	router.Run("0.0.0.0:8000")
 }
